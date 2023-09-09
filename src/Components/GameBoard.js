@@ -40,8 +40,8 @@ function GameBoard({snakeArr,setSnakeArr,highScore,setHighScore,difficulty,volum
   function setGrid(){
     let grid = [];
     let row = 1;
-    for(let i = 0; i<18; i++){
-      for(let j = 0; j<18; j++){
+    for(let i = 0; i<20; i++){
+      for(let j = 0; j<20; j++){
     let col = j+1;
         grid.push(<div className='cell' 
         key={i * 18 + j}

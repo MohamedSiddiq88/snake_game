@@ -29,14 +29,14 @@ white-space: pre-wrap;
 
 /* G */
 .game-board{
-  height: 400px;
-  width: 400px;
+  height: 600px;
+  width: 600px;
   border: 1px solid #9400FF;
   /* background-color: #0f0; */
   background-color: #001900;
   display: grid;
-  grid-template-columns:repeat(18,1fr) ;
-  grid-template-rows: repeat(18,1fr);
+  grid-template-columns:repeat(20,1fr) ;
+  grid-template-rows: repeat(20,1fr);
 }
 
 .cell{
