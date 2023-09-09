@@ -3,12 +3,6 @@
   margin: 0;
 }
 
-.message{
-text-align: center;
-display: none;
-white-space: pre-wrap;
-}
-
 .App-header {
   background-color: #040405;
   min-height: 100vh;
@@ -83,14 +77,3 @@ white-space: pre-wrap;
   padding: 3px;
 }
 
-@media  (min-width:300px) and (max-width:1000px) {
-  .game-board{
-    display: none;
-  }
-  .score-board{
-    display: none;
-  }
-  .message{
-    display:block;
-  }
-}
