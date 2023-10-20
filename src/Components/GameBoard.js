@@ -109,7 +109,7 @@ function GameBoard({snakeArr,setSnakeArr,highScore,setHighScore,difficulty,volum
     }
     
     //collapse with border
-if(snakeArr[0].x>18 || snakeArr[0].y>18 || snakeArr[0].x<=0 || snakeArr[0].y<=0){
+if(snakeArr[0].x>20 || snakeArr[0].y>20 || snakeArr[0].x<=0 || snakeArr[0].y<=0){
   return true;
 }
 
